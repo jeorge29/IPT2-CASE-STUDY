@@ -50,3 +50,19 @@ img{
 		transform: translatey(0px);
 	}
 }
+p.name{
+    font-size: 400%;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+}
+p.description{
+    font-size: 150%;
+    color: white;   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 130px;
+}
