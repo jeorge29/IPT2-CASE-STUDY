@@ -30,3 +30,23 @@ img{
 	animation-duration: 2.5s;
 	animation-iteration-count: infinite;
 }
+img{
+    border: 5px solid rgb(12, 194, 164);
+    border-radius: 60%;
+    animation: bounceImage;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes bounceImage{
+	10%{    
+		transform: translatey(0px);
+	}
+	50%{	
+		transform: translatey(-20px);
+	}
+	100%{   
+		transform: translatey(0px);
+	}
+}
