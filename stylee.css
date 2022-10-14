@@ -1,0 +1,81 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+/*About Me*/
+body.aboutme{
+    height: 1300px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(160deg, rgb(20, 20, 20) 50%, rgb(71, 71, 71) 100%) no-repeat;
+    overflow: hidden;
+}
+div.mypic{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+img{
+    border: 5px solid rgb(12, 194, 164);
+    border-radius: 60%;
+    animation: bounceImage;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+}
+img{
+    border: 5px solid rgb(12, 194, 164);
+    border-radius: 60%;
+    animation: bounceImage;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes bounceImage{
+	10%{    
+		transform: translatey(0px);
+	}
+	50%{	
+		transform: translatey(-20px);
+	}
+	100%{   
+		transform: translatey(0px);
+	}
+}
+p.name{
+    font-size: 400%;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+}
+p.description{
+    font-size: 150%;
+    color: white;   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 130px;
+}
+p.description{
+    font-size: 150%;
+    color: white;   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 130px;
+}
+p.others{
+
+
+    
+}
