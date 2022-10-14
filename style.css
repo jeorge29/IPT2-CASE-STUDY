@@ -17,3 +17,16 @@ body.aboutme{
     background: linear-gradient(160deg, rgb(20, 20, 20) 50%, rgb(71, 71, 71) 100%) no-repeat;
     overflow: hidden;
 }
+div.mypic{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+img{
+    border: 5px solid rgb(12, 194, 164);
+    border-radius: 60%;
+    animation: bounceImage;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+}
