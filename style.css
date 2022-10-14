@@ -10,4 +10,10 @@ body{
 }
 
 /*About Me*/
-
+body.aboutme{
+    height: 1300px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(160deg, rgb(20, 20, 20) 50%, rgb(71, 71, 71) 100%) no-repeat;
+    overflow: hidden;
+}
