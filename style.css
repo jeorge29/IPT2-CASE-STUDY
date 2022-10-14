@@ -66,3 +66,11 @@ p.description{
     justify-content: center;
     top: 130px;
 }
+p.description{
+    font-size: 150%;
+    color: white;   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 130px;
+}
